@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+.hero_section{
+    background-image: url("photos/wallpaperflare.com_wallpaper.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text_container{
+    color: rgb(200, 192, 182);
+    max-width: 900px;
+    margin-left: 500px;
+    padding-top: 64px;
+    padding-left: 16px;
+    font-size: x-large;
+}
+.lg_text {
+    font-size: 72px;
+    font-weight: 400;
+}
+.black_box {
+    background-color: black;
+    padding: 20px;
+
+}
+.black_box h2{
+    
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.black_box h2 span{
+    font-weight: 400;
+    font-size: 96px;
+
+}
+.work{
+    display: grid;
+    
+}
+.bottom_section{
+    display: flex;
+}
+.contact{
+    background-color: #515603;
+
+}
+.about{
+    background-color: #722300;
+
+}
+.contact,.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+
+}
+.about p,
+.contact p{
+    margin-bottom: 20px;
+
+}
+.about h2,
+.contact h2{
+   font-size: 64px;
+   font-weight: 300;
+    
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 20px;
+    color: white;
+
+}
