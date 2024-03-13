@@ -9,7 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .hero_section{
-    background-image: url("photos/wallpaperflare.com_wallpaper.jpg");
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
     min-height: 100vh;
     background-position: center;
     background-size: cover;
